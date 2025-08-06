@@ -4,9 +4,15 @@ cookie:
   name: mortgage_cookie
 credentials:
   usernames:
-    Jane:
-      name: Jane Apodi
-      password: $pbkdf2-sha256$29000$JcS413oPQciZs5ZSynlP6Q$HSqNM/uTp3MH31xoO3nJc0mgnxcuAuPwJV5eZgGUyxs
-    Sakawa:
-      name: Sakawa Bob
-      password: $pbkdf2-sha256$29000$Z.w9Z0xp7X2vdY5xbi3l/A$0Tre/prZoy6avVzvQ5zrEKDbDPWfglhUH8MLTf4wWrU
+    Chepet:
+      name: Chepet Luke
+      password: $pbkdf2-sha256$29000$hTBGKAWgVIpRKiXEOGcMwQ$mBlLL.vFpmub5sKe0Iea9XAB5xM/e6YvpKBgQUfkYK4
+    Doreen:
+      name: Doreen Machoni
+      password: $pbkdf2-sha256$29000$Pud8by0FIMS4txZiDKEUQg$ez5yAsA9uPYi/ufBHiGdkcLo7wn.UjHMeX4kFkPtV3I
+    Jacky:
+      name: Jacky Peter
+      password: $pbkdf2-sha256$29000$vldqbU3JuZeSknLuHWOslQ$t0rn5PEL2SrBbO05AP/yXl9cDneiwIdZksr64rXCs38
+    Ochieng:
+      name: Fredrick Ochieng
+      password: $pbkdf2-sha256$29000$0NpbS8k5B0DIGSMEwPifsw$dd3Fzqt5y9urazutmpuFNjQItMl//LJV4XnVbqZjLg4
