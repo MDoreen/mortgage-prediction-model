@@ -12,6 +12,73 @@ from passlib.hash import pbkdf2_sha256
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="Nairobi Smart Mortgage", layout="wide")
 
+# --- Custom CSS for Styling ---
+st.markdown(
+    """
+    <style>
+    /* Main App Background */
+    .stApp {
+        background-color: #f0f2f6;
+    }
+
+    /* General Container/Form Styling (The "tables") */
+    div[data-testid="stForm"], .stAlert, .card-container {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border: 1px solid #e0e0e0;
+    }
+    
+    /* Headings */
+    h1, h2, h3, h4, h5, h6 {
+        color: #2c3e50;
+    }
+
+    /* Input and Selectbox Styling */
+    .stTextInput, .stNumberInput, .stSelectbox {
+        border-radius: 8px;
+        border: 2px solid #bdc3c7;
+        padding: 8px;
+        background-color: #f9f9f9;
+    }
+
+    /* Button Styling */
+    .stButton > button {
+        background-color: #3498db;
+        color: white;
+        border-radius: 8px;
+        border: none;
+        padding: 10px 20px;
+        font-weight: bold;
+    }
+
+    .stButton > button:hover {
+        background-color: #2980b9;
+    }
+
+    /* Logout button specific styling */
+    .stSidebar .stButton > button {
+        background-color: #e74c3c;
+    }
+    .stSidebar .stButton > button:hover {
+        background-color: #c0392b;
+    }
+
+    /* Welcome page container styling */
+    .welcome-container {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border: 1px solid #e0e0e0;
+        text-align: center;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # --- CONFIG PATH ---
 CONFIG_PATH = "config.yaml"
 
@@ -35,19 +102,21 @@ with open(CONFIG_PATH) as file:
 if "authentication_status" not in st.session_state:
     st.session_state.authentication_status = None
 if "view_state" not in st.session_state:
-    st.session_state.view_state = "login"
+    st.session_state.view_state = "welcome"
 if "name" not in st.session_state:
     st.session_state.name = None
 if "username" not in st.session_state:
     st.session_state.username = None
+if "logout_message" not in st.session_state:
+    st.session_state.logout_message = None
 
 # --- LOGOUT ---
 def logout_user():
     st.session_state.authentication_status = None
-    st.session_state.view_state = "login"
+    st.session_state.view_state = "welcome"
     st.session_state.name = None
     st.session_state.username = None
-    st.success("You have been logged out.")
+    st.session_state.logout_message = "You have been logged out."
     st.rerun()
 
 # --- TOGGLE VIEW ---
@@ -58,6 +127,56 @@ def switch_to_register():
 def switch_to_login():
     st.session_state.view_state = "login"
     st.rerun()
+
+def switch_to_reset_password():
+    st.session_state.view_state = "reset_password"
+    st.rerun()
+
+# --- Function to display the welcome page ---
+def show_welcome_page():
+    if st.session_state.logout_message:
+        st.success(st.session_state.logout_message)
+        st.session_state.logout_message = None
+    
+    st.markdown("<h1 style='text-align: center;'>Welcome to the Nairobi Smart Mortgage Price Predictor!</h1>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>Your one-stop tool for estimating property prices in Nairobi.</h3>", unsafe_allow_html=True)
+    st.markdown("---")
+    
+    col_empty1, col_center, col_empty2 = st.columns([1, 2, 1])
+    with col_center:
+        st.markdown(
+            """
+            <div class="welcome-container">
+                <h4 style="color: black; margin-bottom: 20px;">Ready to find your dream home's price?</h4>
+                <p style="color: #666666;">Log in or register to get started with your personalized predictions.</p>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+        st.markdown("<br>", unsafe_allow_html=True)
+        st.button("Get Started", use_container_width=True, on_click=lambda: st.session_state.update(view_state="login"))
+
+# --- Function to display the reset password page (placeholder) ---
+def show_reset_password_page():
+    col_empty1, col_center, col_empty2 = st.columns([1, 2, 1])
+    with col_center:
+        st.title("🔑 Reset Password")
+        st.markdown("---")
+        
+        st.warning("This is a placeholder. Full password reset functionality requires a backend service (e.g., to send a confirmation email).")
+        
+        with st.form("reset_password_form"):
+            st.info("Enter your registered username to receive a password reset link.")
+            reset_username = st.text_input("👤 Username")
+            reset_button = st.form_submit_button("Reset Password")
+        
+        if reset_button:
+            # Here you would typically check if the username exists and trigger an email.
+            st.success("If the username exists, a password reset email would be sent.")
+            
+        st.markdown("---")
+        if st.button("⬅️ Back to Login", on_click=switch_to_login):
+            pass
 
 # --- MAIN APP LOGIC ---
 if st.session_state["authentication_status"]:
@@ -168,9 +287,12 @@ if st.session_state["authentication_status"]:
         "**Designed by: Doreen Machoni**"
     )
 
-else:
-    # --- LOGIN/REGISTER VIEW ---
-    if st.session_state.view_state == "login":
+elif st.session_state.view_state == "welcome":
+    show_welcome_page()
+
+elif st.session_state.view_state == "login":
+    col_empty1, col_center, col_empty2 = st.columns([1, 2, 1])
+    with col_center:
         st.title("🔐 Login")
         st.markdown("---")
         
@@ -196,11 +318,19 @@ else:
                 st.error("❌ Incorrect username or password")
         
         st.markdown("---")
-        st.info("Don't have an account?")
-        if st.button("📝 Register Now", on_click=switch_to_register):
-            pass
-
-    elif st.session_state.view_state == "register":
+        col_no_account, col_forgot_password = st.columns(2)
+        with col_no_account:
+            st.info("Don't have an account?")
+            if st.button("📝 Register Now", on_click=switch_to_register, use_container_width=True):
+                pass
+        with col_forgot_password:
+            st.info("Forgot your password?")
+            if st.button("🔑 Reset Password", on_click=switch_to_reset_password, use_container_width=True):
+                pass
+            
+elif st.session_state.view_state == "register":
+    col_empty1, col_center, col_empty2 = st.columns([1, 2, 1])
+    with col_center:
         st.title("📝 Register New User")
         st.markdown("---")
         st.write("Join the platform to get your personalized property price predictions.")
@@ -237,3 +367,6 @@ else:
         st.info("Already have an account?")
         if st.button("🔐 Login Now", on_click=switch_to_login):
             pass
+            
+elif st.session_state.view_state == "reset_password":
+    show_reset_password_page()
