@@ -1,0 +1,51 @@
+price,location,price_clean,price_numeric,price_original,price_outlier,price_category,location_clean,neighborhood,city_region,processed_date
+FromKSh 6 950 000toKSh 8 950 000,"Riruta, Nairobi",From6950000to8950000,6950000000000.0,FromKSh 6 950 000toKSh 8 950 000,False,Over 50M,"Riruta, Nairobi",Riruta,Nairobi,2025-05-06
+FromKSh 12 000 000toKSh 16 500 000,"Kilimani, Nairobi",From12000000to16500000,12000000000000.0,FromKSh 12 000 000toKSh 16 500 000,False,Over 50M,"Kilimani, Nairobi",Kilimani,Nairobi,2025-05-06
+FromKSh 8 000 000toKSh 11 500 000,"Kileleshwa, Nairobi",From8000000to11500000,8000000000000.0,FromKSh 8 000 000toKSh 11 500 000,False,Over 50M,"Kileleshwa, Nairobi",Kileleshwa,Nairobi,2025-05-06
+FromKSh 9 500 000toKSh 10 000 000,"Syokimau, Nairobi",From9500000to10000000,9500000000000.0,FromKSh 9 500 000toKSh 10 000 000,False,Over 50M,"Syokimau, Nairobi",Syokimau,Nairobi,2025-05-06
+POA,"Kileleshwa, Nairobi",POA,,POA,False,,"Kileleshwa, Nairobi",Kileleshwa,Nairobi,2025-05-06
+FromKSh 20 000 000toKSh 27 000 000,"Kileleshwa, Nairobi",From20000000to27000000,20000000000000.0,FromKSh 20 000 000toKSh 27 000 000,False,Over 50M,"Kileleshwa, Nairobi",Kileleshwa,Nairobi,2025-05-06
+FromKSh 6 000 000toKSh 13 000 000,"Kilimani, Nairobi",From6000000to13000000,6000000000000.0,FromKSh 6 000 000toKSh 13 000 000,False,Over 50M,"Kilimani, Nairobi",Kilimani,Nairobi,2025-05-06
+FromKSh 1 900 000toKSh 6 200 000,"Riruta, Nairobi",From1900000to6200000,1900000000000.0,FromKSh 1 900 000toKSh 6 200 000,False,Over 50M,"Riruta, Nairobi",Riruta,Nairobi,2025-05-06
+FromKSh 10 000 000toKSh 12 000 000,"Kilimani, Nairobi",From10000000to12000000,10000000000000.0,FromKSh 10 000 000toKSh 12 000 000,False,Over 50M,"Kilimani, Nairobi",Kilimani,Nairobi,2025-05-06
+FromKSh 6 000 000toKSh 13 000 000,"Kilimani, Nairobi",From6000000to13000000,6000000000000.0,FromKSh 6 000 000toKSh 13 000 000,False,Over 50M,"Kilimani, Nairobi",Kilimani,Nairobi,2025-05-06
+FromKSh 16 000 000toKSh 18 000 000,"Kileleshwa, Nairobi",From16000000to18000000,16000000000000.0,FromKSh 16 000 000toKSh 18 000 000,False,Over 50M,"Kileleshwa, Nairobi",Kileleshwa,Nairobi,2025-05-06
+FromKSh 6 950 000toKSh 8 950 000,"Riruta, Nairobi",From6950000to8950000,6950000000000.0,FromKSh 6 950 000toKSh 8 950 000,False,Over 50M,"Riruta, Nairobi",Riruta,Nairobi,2025-05-06
+FromKSh 260 000 000toKSh 275 000 000,"Westlands, Nairobi",From260000000to275000000,260000000000000.0,FromKSh 260 000 000toKSh 275 000 000,True,Over 50M,"Westlands, Nairobi",Westlands,Nairobi,2025-05-06
+FromKSh 34 000 000toKSh 34 500 000,"Westlands, Nairobi",From34000000to34500000,34000000000000.0,FromKSh 34 000 000toKSh 34 500 000,False,Over 50M,"Westlands, Nairobi",Westlands,Nairobi,2025-05-06
+FromKSh 10 000 000toKSh 24 000 000,"Lavington, Nairobi",From10000000to24000000,10000000000000.0,FromKSh 10 000 000toKSh 24 000 000,False,Over 50M,"Lavington, Nairobi",Lavington,Nairobi,2025-05-06
+FromKSh 1 900 000toKSh 6 200 000,"Riruta, Nairobi",From1900000to6200000,1900000000000.0,FromKSh 1 900 000toKSh 6 200 000,False,Over 50M,"Riruta, Nairobi",Riruta,Nairobi,2025-05-06
+FromKSh 10 000 000toKSh 12 000 000,"Kilimani, Nairobi",From10000000to12000000,10000000000000.0,FromKSh 10 000 000toKSh 12 000 000,False,Over 50M,"Kilimani, Nairobi",Kilimani,Nairobi,2025-05-06
+FromKSh 29 000 000toKSh 30 000 000,"Uthiru, Nairobi",From29000000to30000000,29000000000000.0,FromKSh 29 000 000toKSh 30 000 000,False,Over 50M,"Uthiru, Nairobi",Uthiru,Nairobi,2025-05-06
+FromKSh 41 500 000toKSh 42 000 000,"Karen, Nairobi",From41500000to42000000,41500000000000.0,FromKSh 41 500 000toKSh 42 000 000,False,Over 50M,"Karen, Nairobi",Karen,Nairobi,2025-05-06
+FromKSh 39 950 000toKSh 49 950 000,"Kitisuru, Nairobi",From39950000to49950000,39950000000000.0,FromKSh 39 950 000toKSh 49 950 000,False,Over 50M,"Kitisuru, Nairobi",Kitisuru,Nairobi,2025-05-06
+POA,"Westlands, Nairobi",POA,,POA,False,,"Westlands, Nairobi",Westlands,Nairobi,2025-05-06
+POA,"Westlands, Nairobi",POA,,POA,False,,"Westlands, Nairobi",Westlands,Nairobi,2025-05-06
+FromKSh 8 000 000toKSh 11 500 000,"Kileleshwa, Nairobi",From8000000to11500000,8000000000000.0,FromKSh 8 000 000toKSh 11 500 000,False,Over 50M,"Kileleshwa, Nairobi",Kileleshwa,Nairobi,2025-05-06
+FromKSh 41 500 000toKSh 42 000 000,"Karen, Nairobi",From41500000to42000000,41500000000000.0,FromKSh 41 500 000toKSh 42 000 000,False,Over 50M,"Karen, Nairobi",Karen,Nairobi,2025-05-06
+FromKSh 11 995 000toKSh 11 995 000,"Syokimau, Nairobi",From11995000to11995000,11995000000000.0,FromKSh 11 995 000toKSh 11 995 000,False,Over 50M,"Syokimau, Nairobi",Syokimau,Nairobi,2025-05-06
+FromKSh 22 500 000toKSh 28 500 000,"Kileleshwa, Nairobi",From22500000to28500000,22500000000000.0,FromKSh 22 500 000toKSh 28 500 000,False,Over 50M,"Kileleshwa, Nairobi",Kileleshwa,Nairobi,2025-05-06
+FromKSh 12 000toKSh 12 000,"Kilimani, Nairobi",From12000to12000,12000000000.0,FromKSh 12 000toKSh 12 000,False,Over 50M,"Kilimani, Nairobi",Kilimani,Nairobi,2025-05-06
+FromKSh 10 000 000toKSh 24 000 000,"Lavington, Nairobi",From10000000to24000000,10000000000000.0,FromKSh 10 000 000toKSh 24 000 000,False,Over 50M,"Lavington, Nairobi",Lavington,Nairobi,2025-05-06
+FromKSh 6 000 000toKSh 13 000 000,"Kilimani, Nairobi",From6000000to13000000,6000000000000.0,FromKSh 6 000 000toKSh 13 000 000,False,Over 50M,"Kilimani, Nairobi",Kilimani,Nairobi,2025-05-06
+FromKSh 7 000 000toKSh 10 500 000,"Kitisuru, Nairobi",From7000000to10500000,7000000000000.0,FromKSh 7 000 000toKSh 10 500 000,False,Over 50M,"Kitisuru, Nairobi",Kitisuru,Nairobi,2025-05-06
+FromKSh 10 000 000toKSh 24 000 000,"Lavington, Nairobi",From10000000to24000000,10000000000000.0,FromKSh 10 000 000toKSh 24 000 000,False,Over 50M,"Lavington, Nairobi",Lavington,Nairobi,2025-05-06
+POA,"Kileleshwa, Nairobi",POA,,POA,False,,"Kileleshwa, Nairobi",Kileleshwa,Nairobi,2025-05-06
+FromKSh 260 000 000toKSh 275 000 000,"Westlands, Nairobi",From260000000to275000000,260000000000000.0,FromKSh 260 000 000toKSh 275 000 000,True,Over 50M,"Westlands, Nairobi",Westlands,Nairobi,2025-05-06
+FromKSh 24 000 000toKSh 25 000 000,"Lavington, Nairobi",From24000000to25000000,24000000000000.0,FromKSh 24 000 000toKSh 25 000 000,False,Over 50M,"Lavington, Nairobi",Lavington,Nairobi,2025-05-06
+FromKSh 40 000 000toKSh 45 000 000,"Loresho, Nairobi",From40000000to45000000,40000000000000.0,FromKSh 40 000 000toKSh 45 000 000,False,Over 50M,"Loresho, Nairobi",Loresho,Nairobi,2025-05-06
+FromKSh 340 000 000toKSh 350 000 000,"Spring Valley, Nairobi",From340000000to350000000,340000000000000.0,FromKSh 340 000 000toKSh 350 000 000,True,Over 50M,"Spring Valley, Nairobi",Spring Valley,Nairobi,2025-05-06
+FromKSh 10 000 000toKSh 24 000 000,"Lavington, Nairobi",From10000000to24000000,10000000000000.0,FromKSh 10 000 000toKSh 24 000 000,False,Over 50M,"Lavington, Nairobi",Lavington,Nairobi,2025-05-06
+FromKSh 225 000 000toKSh 225 000 000,"Syokimau, Nairobi",From225000000to225000000,225000000000000.0,FromKSh 225 000 000toKSh 225 000 000,True,Over 50M,"Syokimau, Nairobi",Syokimau,Nairobi,2025-05-06
+FromKSh 12 000 000toKSh 29 500 000,"Kilimani, Nairobi",From12000000to29500000,12000000000000.0,FromKSh 12 000 000toKSh 29 500 000,False,Over 50M,"Kilimani, Nairobi",Kilimani,Nairobi,2025-05-06
+FromKSh 23 000 000toKSh 23 000 000,"Kileleshwa, Nairobi",From23000000to23000000,23000000000000.0,FromKSh 23 000 000toKSh 23 000 000,False,Over 50M,"Kileleshwa, Nairobi",Kileleshwa,Nairobi,2025-05-06
+FromKSh 41 500 000toKSh 42 000 000,"Karen, Nairobi",From41500000to42000000,41500000000000.0,FromKSh 41 500 000toKSh 42 000 000,False,Over 50M,"Karen, Nairobi",Karen,Nairobi,2025-05-06
+FromKSh 10 000 000toKSh 24 000 000,"Lavington, Nairobi",From10000000to24000000,10000000000000.0,FromKSh 10 000 000toKSh 24 000 000,False,Over 50M,"Lavington, Nairobi",Lavington,Nairobi,2025-05-06
+FromKSh 0toKSh 30 000 000,"Lavington, Nairobi",From0to30000000,0.0,FromKSh 0toKSh 30 000 000,False,,"Lavington, Nairobi",Lavington,Nairobi,2025-05-06
+FromKSh 17 500 000toKSh 17 900 000,"Lavington, Nairobi",From17500000to17900000,17500000000000.0,FromKSh 17 500 000toKSh 17 900 000,False,Over 50M,"Lavington, Nairobi",Lavington,Nairobi,2025-05-06
+FromKSh 22 500 000toKSh 28 500 000,"Kileleshwa, Nairobi",From22500000to28500000,22500000000000.0,FromKSh 22 500 000toKSh 28 500 000,False,Over 50M,"Kileleshwa, Nairobi",Kileleshwa,Nairobi,2025-05-06
+FromKSh 1 900 000toKSh 6 200 000,"Riruta, Nairobi",From1900000to6200000,1900000000000.0,FromKSh 1 900 000toKSh 6 200 000,False,Over 50M,"Riruta, Nairobi",Riruta,Nairobi,2025-05-06
+POA,"Westlands, Nairobi",POA,,POA,False,,"Westlands, Nairobi",Westlands,Nairobi,2025-05-06
+FromKSh 26 900 000toKSh 49 950 000,"Lavington, Nairobi",From26900000to49950000,26900000000000.0,FromKSh 26 900 000toKSh 49 950 000,False,Over 50M,"Lavington, Nairobi",Lavington,Nairobi,2025-05-06
+FromKSh 22 500 000toKSh 28 500 000,"Kileleshwa, Nairobi",From22500000to28500000,22500000000000.0,FromKSh 22 500 000toKSh 28 500 000,False,Over 50M,"Kileleshwa, Nairobi",Kileleshwa,Nairobi,2025-05-06
+FromKSh 310 000 000toKSh 340 000 000,"Westlands, Nairobi",From310000000to340000000,310000000000000.0,FromKSh 310 000 000toKSh 340 000 000,True,Over 50M,"Westlands, Nairobi",Westlands,Nairobi,2025-05-06
